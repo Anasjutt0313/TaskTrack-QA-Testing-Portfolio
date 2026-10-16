@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Playwright reports and test results
+reports/
+test-results/
+playwright-report/
+
+# JMeter results
+report/
+results.jtl
+*.jtl
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

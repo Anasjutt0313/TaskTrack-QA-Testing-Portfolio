@@ -1,0 +1,16 @@
+{
+  "name": "phase2-api-testing",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "test:tasks": "playwright test tests/tasks.spec.ts",
+    "test:security": "playwright test tests/security.spec.ts",
+    "test:boundary": "playwright test tests/boundary.spec.ts",
+    "report": "playwright show-report reports/html-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.0.0"
+  }
+}
